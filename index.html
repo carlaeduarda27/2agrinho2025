@@ -3,50 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho Suplementos - Sua Força Começa Aqui!</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/logo.png" type="image/png">
+    <title>Agrinho Suplementos - Sua Saúde em Foco</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <img src="img/logo.png" alt="Logo Agrinho Suplementos" class="logo">
-            <nav>
+            <div class="logo">
+                <h1>Agrinho Suplementos</h1>
+            </div>
+            <nav class="navbar">
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#home">Início</a></li>
                     <li><a href="#produtos">Produtos</a></li>
                     <li><a href="#sobre">Sobre Nós</a></li>
                     <li><a href="#contato">Contato</a></li>
                 </ul>
             </nav>
-            <div class="cart-icon">
-                🛒 <span id="cart-count">0</span>
-            </div>
         </div>
     </header>
 
     <main>
-        <section id="home" class="hero">
+        <section id="home" class="hero-section">
             <div class="container">
-                <h1>Desperte Seu Potencial com Agrinho Suplementos!</h1>
-                <p>Qualidade e performance para você alcançar seus objetivos.</p>
-                <a href="#produtos" class="btn">Conheça Nossos Produtos</a>
+                <div class="hero-content">
+                    <h2>Impulsione sua Saúde com a Força da Natureza!</h2>
+                    <p>Suplementos de qualidade para uma vida mais equilibrada e produtiva.</p>
+                    <a href="#produtos" class="btn-primary">Ver Produtos</a>
+                </div>
             </div>
         </section>
 
-        <section id="produtos" class="products">
+        <section id="produtos" class="featured-products">
             <div class="container">
-                <h2>Nossos Produtos</h2>
-                <div class="product-list" id="product-list">
+                <h2>Nossos Produtos em Destaque</h2>
+                <div class="product-grid">
                     <div class="product-card">
-                        <img src="img/whey_protein.jpg" alt="Whey Protein">
-                        <h3>Whey Protein Concentrado</h3>
-                        <p>Ideal para recuperação muscular e ganho de massa.</p>
-                        <span class="price">R$ 99,90</span>
-                        <button class="add-to-cart" data-id="1" data-name="Whey Protein Concentrado" data-price="99.90">Adicionar ao Carrinho</button>
+                        <img src="https://via.placeholder.com/200x200" alt="Suplemento 1">
+                        <h3>Suplemento Vitamínico</h3>
+                        <p>Essencial para o seu dia a dia.</p>
+                        <span class="price">R$ 59,90</span>
+                        <button class="btn-secondary">Saber Mais</button>
                     </div>
                     <div class="product-card">
-                        <img src="img/creatina.jpg" alt="Creatina">
-                        <h3>Creatina Monohidratada</h3>
-                        <p>A
-                            
+                        <img src="https://via.placeholder.com/200x200" alt="Suplemento 2">
+                        <h3>Proteína Whey Protein</h3>
+                        <p>Ideal para recuperação muscular.</p>
+                        <span class="price">R$ 129,90</span>
+                        <button class="btn-secondary">Saber Mais</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/200x200" alt="Suplemento 3">
+                        <h3>Ômega 3</h3>
+                        <p>Benefícios para o coração e cérebro.</p>
+                        <span class="price">R$ 79,90</span>
+                        <button class="btn-secondary">Saber Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="about-us">
+            <div class="container">
+                <h2>Sobre o Projeto Agrinho Suplementos</h2>
+                <p>Nós do Projeto Agrinho acreditamos que a saúde e o bem-estar são pilares fundamentais para o desenvolvimento integral. Nosso objetivo é oferecer suplementos de alta qualidade, produzidos de forma sustentável e com ingredientes naturais, para que você possa alcançar seus objetivos de saúde e ter uma vida mais plena. Valorizamos a educação no campo e a importância de uma alimentação equilibrada, complementada quando necessário por suplementos confiáveis.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content" id="contato">
+                <div class="contact-info">
+                    <h3>Entre em Contato</h3>
+                    <p>Email: contato@agrinhosuplementos.com.br</p>
+                    <p>Telefone: (XX) XXXX-XXXX</p>
+                    <p>Endereço: Rua do Agrinho, 123 - Cidade Agrícola - PR</p>
+                </div>
+                <div class="social-media">
+                    <h3>Siga-nos</h3>
+                    <ul>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Agrinho Suplementos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
